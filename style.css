@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0px 50px;
+    min-height: 10px;
+    padding-top: 0px;
+    padding-bottom: -500px;
+    
+    
+}
+.navbar{
+    display: block;
+    align-items: baseline;
+    background-color: #1f1f1f;
+    height: 108px;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 275;
+    
+}
+.logo{
+     position: relative;
+     left: 20px;
+     top: 20px;
+}
+.line{
+    border-left: 2px solid #ffffff;
+    height: 50px;
+    position: relative;
+    left: 250px;
+    bottom: 35px;
+}
+.list{
+    display: inline;
+    text-decoration: none;
+}
+.list-item{
+    display: inline;
+    margin: 30px;
+    color: #ffffff;
+    position: relative;
+    left: 250px;
+    bottom: 70px;
+    font-family: 'Montserrat',cursive;
+}
+.button-small{
+    display: inline;
+    position: relative;
+    left: 1100px;
+    font-size: 18px;
+    bottom: 100px;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    font-family: 'Montserrat',cursive;
+    border: 1px solid #BA0CC5;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+.hero{
+   
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 140px;
+    left: 90px;
+    text-align: center;
+    
+}
+.hero-heading{
+    text-align: center;
+    display: block;
+    position: relative;
+    left: 100px;
+    color: #ffffff;
+    font-size: 90px;
+    width: 80vw;
+    font-family: 'Montserrat',cursive;
+}
+.hero-description{
+    font-family: 'Montserrat',cursive;
+    color: #FFFFFF;
+    font-size: 30px;
+    position: relative;
+    bottom: 50px;
+}
+.button-large{
+    
+    position: relative;
+    right: 30px;
+    font-size: 30px;
+    background-color: #BA0CC5;
+    color: #ffffff;
+    font-family: 'Montserrat',cursive;
+    border: 1px solid #BA0CC5;
+    padding: 15px 40px;
+    border-radius: 10px;
+    text-align: center;
+}
